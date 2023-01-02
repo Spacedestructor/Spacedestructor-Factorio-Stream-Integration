@@ -1,0 +1,10 @@
+{
+	"name": "Spacedestructor-Factorio-Stream-Integration",
+	"version": "1.0.0",
+	"title": "Spacedestructor Stream Integration",
+	"description": "This Mod allows your Stream Viewers to trigger Events in the Game.",
+	"author": "Spacedestructor",
+	"contact": "https://www.twitter.com/spacedestructor",
+	"factorio_version": "1.1",
+	"dependencies": ["base >= 1.1"]
+}
