@@ -4,6 +4,7 @@
 		"game",
 		"defines",
 		"commands",
-		"command"
+		"command",
+		"gui"
 	]
 }
