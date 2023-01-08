@@ -1,11 +1,9 @@
 {
 	"Lua.diagnostics.globals": [
-		"script",
 		"game",
 		"defines",
 		"commands",
-		"gui",
 		"data",
-		"settings"
+		"settings",
 	]
 }

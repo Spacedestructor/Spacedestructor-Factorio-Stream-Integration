@@ -23,7 +23,6 @@ data:extend({
 		name = "SpawnPollutionAmmount",
 		setting_type = "runtime-per-user",
 		order = "2",
-		auto_trim = true,
 		allowed_values = {10},
 		default_value = 10,
 		hidden = true
@@ -42,7 +41,6 @@ data:extend({
 		name = "TeleportRadius",
 		setting_type = "runtime-per-user",
 		order = "4",
-		auto_trim = true,
 		allowed_values = {10},
 		default_value = 10,
 		hidden = true
@@ -61,7 +59,6 @@ data:extend({
 		name = "ParanoiaRadius",
 		setting_type = "runtime-per-user",
 		order = "6",
-		auto_trim = true,
 		allowed_values = {100},
 		default_value = 100,
 		hidden = true
@@ -71,7 +68,6 @@ data:extend({
 		name = "ParanoiaLimit",
 		setting_type = "runtime-per-user",
 		order = "7",
-		auto_trim = true,
 		allowed_values = {25},
 		default_value = 25,
 		hidden = true
@@ -90,9 +86,17 @@ data:extend({
 		name = "AttackLimit",
 		setting_type = "runtime-per-user",
 		order = "9",
-		auto_trim = true,
 		allowed_values = {25},
 		default_value = 25,
 		hidden = true
+	},
+	{
+		type = "string-setting",
+		name = "AttackPreference",
+		setting_type = "runtime-per-user",
+		order = "10",
+		allowed_values = {"Biter", "Spitter"},
+		default_value = "Biter",
+		hidden = false
 	}
 })
