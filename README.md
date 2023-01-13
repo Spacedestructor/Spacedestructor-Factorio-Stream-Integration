@@ -1,2 +1,2 @@
 # Spacedestructor-Factorio-Stream-Integration
- This mod allows your stream viewers to trigger events in the game.
+This Mod adds Commands to the game that can only be triggered through an RCON Interface. For Twitch Streams this is Designed in coorperation with Barinzaya, the creator of a Twitch RCON Client (https://github.com/Barinzaya/twitch-rcon). If you want to use it for Livestreams on any other Platform please setup your own RCON Client and it should automatically just work as long as your following the requirements of this Mod.
