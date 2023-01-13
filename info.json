@@ -2,7 +2,7 @@
 	"name": "Spacedestructor-Factorio-Stream-Integration",
 	"version": "1.0.0",
 	"title": "Spacedestructor Stream Integration",
-	"description": "This Mod adds Commands to the game that can only be triggered through an RCON Interface. For Twitch Streams this is Designed in coorperation with Barinzaya, the creator of a Twitch RCON Client. If you want to use it for Livestreams on any other Platform please setup your own RCON Client and it should automatically just work as long as your following the requirements of this Mod.",
+	"description": "This Mod adds Commands to the game that can only be triggered through an RCON Interface. For Twitch Streams this is Designed in coorperation with Barinzaya, the creator of a Twitch RCON Client (https://github.com/Barinzaya/twitch-rcon). If you want to use it for Livestreams on any other Platform please setup your own RCON Client and it should automatically just work as long as your following the requirements of this Mod.",
 	"author": "Spacedestructor & Barinzaya",
 	"contact": "https://www.twitter.com/spacedestructor",
 	"factorio_version": "1.1",
