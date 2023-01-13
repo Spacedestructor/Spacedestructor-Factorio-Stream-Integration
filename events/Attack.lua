@@ -1,8 +1,8 @@
 --{"limit":10,"name":"ai_spacedestructor"}
 commands.add_command("Attack", nil, function(command)
 	local ok, error = pcall(function()
-		--assert(game.is_multiplayer(), "Attempted use of Stream Integration Events in Singleplayer!")
-		--assert(command.player_index == nil, "Attempted Command usage via Ingame Chat!")
+		assert(game.is_multiplayer(), "Attempted use of Stream Integration Events in Singleplayer!")
+		assert(command.player_index == nil, "Attempted Command usage via Ingame Chat!")
 		local parameters = game.json_to_table(command.parameter) --limit, name.
 		local channelname = parameters.name
 		assert(parameters.name, "Missing Channel Name!")
